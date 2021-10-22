@@ -1,0 +1,1 @@
+Move CoordinateLabeler to Editor folder from Environment to build
