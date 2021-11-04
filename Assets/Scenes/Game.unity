@@ -570,7 +570,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4eae3353369e3c246a6ae88d5bdd46d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gridSize: {x: 5, y: 5}
+  gridSize: {x: 10, y: 10}
+  unityGridSize: 10
 --- !u!4 &38261495
 Transform:
   m_ObjectHideFlags: 0
@@ -21029,8 +21030,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 79ca75b7b3ebe3d4f8b05999be7ef634, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startCoordinates: {x: 3, y: 3}
-  destinationCoordinates: {x: 1, y: 0}
+  startCoordinates: {x: 2, y: 2}
+  destinationCoordinates: {x: 5, y: 0}
 --- !u!1001 &1473116527
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -31950,6 +31951,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8506596240723335645, guid: 6e14526ca3267224595265abb0033c59, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8506596240723335646, guid: 6e14526ca3267224595265abb0033c59, type: 3}
+      propertyPath: poolSize
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8506596240723335646, guid: 6e14526ca3267224595265abb0033c59, type: 3}
